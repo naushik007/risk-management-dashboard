@@ -3,6 +3,8 @@ import { RiskService } from '../risk.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: true,
+  imports: [],
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
