@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 // Import necessary components and modules from Angular core
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -24,7 +25,7 @@ import { routes } from './app.routes';
   ],
   imports: [
     BrowserModule,
-
+    CommonModule,
     // Import RouterModule and use your defined routes
     RouterModule.forRoot(routes),
   ],
