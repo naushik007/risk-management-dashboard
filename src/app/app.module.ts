@@ -5,8 +5,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 
 // Import your custom components
-import { AppComponent } from './app.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { RiskManagementTableComponent } from './risk-management-table-component/risk-management-table-component.component';
 // Import other custom components if needed
 // import { DependencyTrackingTableComponent } from './dependency-tracking-table/dependency-tracking-table.component';
