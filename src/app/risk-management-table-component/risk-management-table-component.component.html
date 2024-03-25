@@ -1,0 +1,18 @@
+<div class="table-responsive">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Risk Name</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let risk of risks">
+        <td>{{ risk.id }}</td>
+        <td>{{ risk.name }}</td>
+        <td>{{ risk.status }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
