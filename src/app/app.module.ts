@@ -18,7 +18,7 @@ import { routes } from './app.routes';
   declarations: [
     // Declare your components here
     // AppComponent,
-    DashboardComponent,
+    // DashboardComponent,
     RiskManagementTableComponent,
     // Uncomment below if you have DependencyTrackingTableComponent
     // DependencyTrackingTableComponent,
